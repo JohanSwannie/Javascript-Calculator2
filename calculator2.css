@@ -50,7 +50,7 @@ body {
   align-items: flex-end;
   justify-content: space-around;
   padding: 8px;
-  grid-column: 1 / 5;
+  grid-column: 1/5;
   background-color: rgba(0, 0, 0, 0.5);
   border: 7px solid rgb(237, 236, 231);
   border-style: double;

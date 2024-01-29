@@ -10,9 +10,9 @@
 
 body {
   background-image: radial-gradient(
-    circle farthest-corner at 22.4% 21.7%,
-    rgb(7, 103, 123) 0%,
-    rgba(2, 83, 185, 1) 100.2%
+    circle farthest-corner at 8.4% 7.7%,
+    rgb(51, 98, 129) 0%,
+    rgb(88, 177, 218) 100.2%
   );
 }
 
@@ -21,20 +21,20 @@ body {
   align-content: center;
   justify-content: center;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 95px);
-  min-height: 96vh;
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  min-height: 100vh;
 }
 
 .calculator > button {
-  font-size: 34px;
-  border: 1px solid #fff;
-  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  border: 1px solid #fcf9f9;
+  background-color: rgba(255, 255, 255, 0.4);
   outline: aliceblue;
   cursor: pointer;
 }
 
 .calculator > button:hover {
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #clear,
@@ -54,7 +54,8 @@ body {
   word-break: break-all;
   grid-column: 1 / 5;
   background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid gold;
+  border: 7px solid rgb(237, 236, 231);
+  border-style: double;
 }
 
 #display > #pOper {

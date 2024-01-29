@@ -49,9 +49,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  padding: 9px;
-  word-wrap: break-word;
-  word-break: break-all;
+  padding: 8px;
   grid-column: 1 / 5;
   background-color: rgba(0, 0, 0, 0.5);
   border: 7px solid rgb(237, 236, 231);

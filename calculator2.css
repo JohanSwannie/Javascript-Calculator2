@@ -16,18 +16,16 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
-  grid-template-columns: repeat(4, 120px);
+  grid-template-columns: repeat(4, 122px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   padding: 2rem;
-  border: 2px solid #fff;
   min-height: 100vh;
 }
 
 .calculator .buttons {
   background-color: rgba(44, 40, 68, 0.5);
   font-size: 2rem;
-  border: 1px solid #fcf9f9;
-  outline: aliceblue;
+  border: 2px solid #fff;
   cursor: pointer;
 }
 
@@ -89,7 +87,7 @@ body {
 }
 
 h5 {
-  color: rgb(249, 249, 249);
+  color: rgb(8, 7, 7);
   font-size: 2rem;
   font-weight: bold;
   text-align: center;

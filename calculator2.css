@@ -9,11 +9,7 @@
 }
 
 body {
-  background-image: radial-gradient(
-    circle farthest-corner at 8.4% 7.7%,
-    rgb(51, 98, 129) 100%,
-    rgb(88, 177, 218) 100%
-  );
+  background-color: rgba(3, 55, 151, 0.5);
 }
 
 .calculator {

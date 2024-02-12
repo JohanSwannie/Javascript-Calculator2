@@ -20,21 +20,44 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: repeat(4, 120px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  padding: 2rem;
+  border: 2px solid #fff;
   min-height: 100vh;
 }
 
-.calculator > button {
+.calculator .buttons {
+  background-color: rgba(44, 40, 68, 0.5);
   font-size: 2rem;
   border: 1px solid #fcf9f9;
-  background-color: rgba(255, 255, 255, 0.4);
   outline: aliceblue;
   cursor: pointer;
 }
 
-.calculator > button:hover {
-  background-color: rgba(255, 255, 255, 0.7);
+.buttons {
+  position: relative;
+}
+
+.buttons button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  border: 1.5px solid #fff;
+  border-radius: 55%;
+  box-shadow: 3px 7px 3px #060606;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.calculator .buttons > button:hover {
+  color: #000;
+  background-color: rgb(125, 125, 157);
+  transition: all 0.35s ease;
 }
 
 #clear,

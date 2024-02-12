@@ -44,14 +44,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 5rem;
+  width: 6.25rem;
   height: 5rem;
   border: 1.5px solid #fff;
-  border-radius: 55%;
+  border-radius: 15%;
   box-shadow: 3px 7px 3px #060606;
   font-size: 2rem;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(54, 54, 54, 0.5);
+}
+
+.buttons button[clear],
+.buttons button[equal] {
+  width: 13.75rem;
 }
 
 .calculator .buttons > button:hover {
